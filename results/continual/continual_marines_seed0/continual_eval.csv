@@ -1,0 +1,11 @@
+cur_phase,cur_phase_map,cur_phase_t,cur_phase_wall_s,eval_phase,eval_map,kind,win_rate,mean_reward
+1,3m,150156,3292.2,1,3m,forward,1.0000,20.0000
+2,8m,420850,16872.1,2,8m,forward,1.0000,20.0000
+2,8m,420850,16872.1,1,3m,backward,0.9062,18.8630
+3,8m_vs_9m,821565,29353.8,3,8m_vs_9m,forward,0.9688,19.7086
+3,8m_vs_9m,821565,29353.8,1,3m,backward,0.7188,16.3322
+3,8m_vs_9m,821565,29353.8,2,8m,backward,1.0000,20.0000
+4,10m_vs_11m,430771,17664.4,4,10m_vs_11m,forward,1.0000,20.0000
+4,10m_vs_11m,430771,17664.4,1,3m,backward,0.7812,17.0925
+4,10m_vs_11m,430771,17664.4,2,8m,backward,0.9062,19.2666
+4,10m_vs_11m,430771,17664.4,3,8m_vs_9m,backward,0.9062,19.3768
