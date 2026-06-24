@@ -2,27 +2,6 @@
 
 **Graph-Based Contrastive Transfer for Sample-Efficient Cooperative Multi-Agent Reinforcement Learning**
 
-Will be updated soon.
-
-GCT-MARL is a transfer-learning framework for cooperative MARL that builds on the
-multi-view graph-contrastive backbone of [MAIL (Du et al., IJCAI 2025)](https://www.ijcai.org/)
-and adds three components for transfer across populations of varying size and composition:
-
-1. **A per-entity input encoder** that removes MAIL's coupling between encoder
-   shape and observation dimension, so one backbone is reusable across any task
-   sharing the same entity-type schema (no per-task adapter retraining).
-2. **A per-view, adaptively-weighted cross-task alignment loss `L_xfer`** that
-   anchors the online target representation to a frozen source representation,
-   learning *which* contrastive view carries the strongest transfer signal.
-3. **A two-phase training protocol** (source → transfer) that chains naturally
-   into continual sequences, giving forward transfer and limited backward
-   forgetting.
-
-We evaluate on the [StarCraft Multi-Agent Challenge (SMAC)](https://github.com/oxwhirl/smac)
-under up-scaling (`3m → 8m`), down-scaling (`8m → 3m`), heterogeneous transfer
-(`3m → 1c3s5z`), and a four-phase continual sequence
-(`3m → 8m → 8m_vs_9m → 10m_vs_11m`).
-
 ---
 
 ## Repository layout
