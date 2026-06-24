@@ -2,6 +2,8 @@
 
 **Graph-Based Contrastive Transfer for Sample-Efficient Cooperative Multi-Agent Reinforcement Learning**
 
+Animesh Animesh, Satheesh K Perepu, Kaushik Dey · *Accepted at the Continual RL Workshop, Reinforcement Learning Conference (RLC) 2026.*
+
 ---
 
 ## Repository layout
@@ -48,7 +50,7 @@ pip install -r requirements.txt
 pip install "protobuf<3.21
 ```
 
-**2. Install SMAC (the oxwhirl StarCraft Multi-Agent Challenge).**
+**2. Install SMAC Environemnt (the oxwhirl StarCraft Multi-Agent Challenge).**
 
 ```bash
 pip install "git+https://github.com/oxwhirl/smac.git"
